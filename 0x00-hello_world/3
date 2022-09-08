@@ -1,0 +1,2 @@
+gcc -o cisfun >> 3
+echo gcc $CFILE -o cisfun
