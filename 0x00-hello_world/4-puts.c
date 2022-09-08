@@ -1,6 +1,5 @@
-#!/bin/bash
-#include <stdio>
-/**
+#include <stdio> 
+/** 
 *main _entry point
 *
 *Return 0 after printing the function
