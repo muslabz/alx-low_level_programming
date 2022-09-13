@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * abs - absolute value
+ * _abs - absolute value
  * @n : integer
  *
  * Return: return absolute valuer of a number
