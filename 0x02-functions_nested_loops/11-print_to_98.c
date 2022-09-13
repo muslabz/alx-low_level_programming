@@ -3,10 +3,12 @@
 
 /**
  * print_to_98 - from n to 98
+ *
  * @n: integer
-
+ *
  * Return: this function print from n to 98
  */
+
 void print_to_98(int n)
 {
 	if (n < 98)
