@@ -18,6 +18,7 @@ void print_square(int z)
 		{
 			_putchar('#');
 		}
+
 		_putchar('\n');
 	}
 }
