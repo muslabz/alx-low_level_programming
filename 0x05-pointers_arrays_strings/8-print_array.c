@@ -13,9 +13,9 @@
 void print_array(int *a, int n)
 {
 	int k;
-	k = 0;
 
-	for (n--; n >= 0; n--;k++)
+	k = 0;
+	for (n--; n >= 0; n--; k++)
 	{
 		printf("%d", a[k]);
 		if (n > 0)
@@ -25,7 +25,6 @@ void print_array(int *a, int n)
 	}
 	printf("\n");
 }
-
 			
 
 
