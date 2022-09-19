@@ -11,7 +11,7 @@ void rev_string(char *s)
 	int lnt, k, half;
 	char fuss;
 
-	for (lnt = 0; s[lnt] != '\0' ; len++)
+	for (lnt = 0; s[lnt] != '\0' ; lnt++)
 	{
 		k = 0;
 		half = lnt / 2 ;
