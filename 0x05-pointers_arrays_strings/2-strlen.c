@@ -12,7 +12,6 @@ int _strlen(char *s)
 
 	while (s[lnt ])
 		lnt++;
-
 	return (lnt);
 }
 
