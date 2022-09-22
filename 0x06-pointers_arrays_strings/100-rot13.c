@@ -8,19 +8,19 @@
 
 char *rot13(char *s)
 {
-	int huss;
-	int fuss;
+	int i;
+	int j;
 
-	char valu[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char lu[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (huss = 0; s[huss] != '\0'; huss++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (fuss =0; fuss < 52; fuss++)
+		for (j = 0; j < 52; j++)
 		{
-			if (s[huss] == valy[fuss])
+			if (s[i] == data1[j])
 			{
-				s[huss] = lu[fuss];
+				s[i] = datarot[j];
 				break;
 			}
 		}
@@ -28,4 +28,3 @@ char *rot13(char *s)
 
 	return (s);
 }
-
