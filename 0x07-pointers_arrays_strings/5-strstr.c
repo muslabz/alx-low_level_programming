@@ -29,8 +29,10 @@ char *_strstr(char *haystack, char *needle)
 
 			} while (haystack[index] == needle[index]);
 		}
+
 		haystack++;
 	} 
+
 	return ('\0');
 }
 
