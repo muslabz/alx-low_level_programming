@@ -1,5 +1,5 @@
 ; File: 101-hello_holberton.asm
-; Auth: Gedeon Obae Gekonge
+; Auth: muslabz
 ; Desc: 64-bit assembly program that prints
 ;       Hello, Holberton followed by a new line.
 
@@ -22,8 +22,6 @@ main:
    ret
 
 section .data
-
-
    msg: db "Hello, Holberton
    fmt: db "%s", 10, 0
 
